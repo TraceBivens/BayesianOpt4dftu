@@ -7,8 +7,12 @@ version = "0.1.0"
 [tasks]
 
 [dependencies]
+python = ">=3.6, <4"
 numpy = ">=2.2.6,<3"
 ase = ">=3.25.0,<4"
 pymatgen = ">=2025.5.28,<2026"
 bayesian-optimization = ">=2.0.4,<3"
 pandas = ">=2.2.3,<3"
+
+[pypi-dependencies]
+vaspvis = ">=1.2.2, <2"
